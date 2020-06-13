@@ -35,7 +35,7 @@
                 android:text="Read"
                 android:layout_margin="8dp"
                 android:textColor="#FFFF"
-                android:background="#27A0ED"
+                android:background="@drawable/rounded_button"
                 android:layout_below="@id/imgBookCover"/>
             <Button
                 android:id="@+id/btnShare"
@@ -44,7 +44,7 @@
                 android:text="Share"
                 android:layout_margin="8dp"
                 android:textColor="#FFFF"
-                android:background="#27A0ED"
+                android:background="@drawable/rounded_button"
                 android:layout_below="@id/btnRead"/>
             <Button
                 android:id="@+id/btnDelete"
@@ -53,7 +53,7 @@
                 android:text="Delete"
                 android:layout_margin="8dp"
                 android:textColor="#FFFF"
-                android:background="#FF0000"
+                android:background="@drawable/rounded_red_button"
                 android:layout_below="@id/btnShare"/>
         </RelativeLayout>
 
